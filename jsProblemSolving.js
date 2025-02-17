@@ -8,6 +8,10 @@
 // using built-in functions is prohibited
 
 function countWords(str) {
+    if(typeof str !== 'string'){
+        console.log(`invalid`)
+        return
+    }
     let count = 0
     let hasWord = false
     for (let char of str) {
@@ -19,6 +23,6 @@ function countWords(str) {
             hasWord = false
         }
     }
-    console.log(hasWord ? count + 1: count)
+   console.log(hasWord ? count + 1: count) 
 }
 countWords("DEV ZeroOne is a Next-Gen Programming Learning Platform.")
