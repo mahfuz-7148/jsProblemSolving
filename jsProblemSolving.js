@@ -1,4 +1,4 @@
-// Write a JavaScript function countWords  that takes a string and returns the number of words contained in this string. 
+// Write a JavaScript function countWords  that takes a string and returns the number of words contained in this string.
 
 // Example:
 // Input: "DEV ZeroOne is a Next-Gen Programming Learning Platform."
@@ -23,7 +23,7 @@
 //             hasWord = false
 //         }
 //     }
-//    console.log(hasWord ? count + 1: count) 
+//    console.log(hasWord ? count + 1: count)
 // }
 // countWords("DEV ZeroOne is a Next-Gen Programming Learning Platform.")
 
@@ -52,25 +52,29 @@
 // Input: ""
 // Output: "Input is Invalid"
 
-function removeWords(str){
-    if(str === null || str === undefined || str === ''){
-        return "Invalid input"
-    }
-    let size = str.length
-    if(size <= 3){
-        return "String is too short to remove"
-    }
-    let newString = ''
-    let index = 0
-    for (const item of str) {
-        if(index >= 3){
-            newString += item
-        }
-        index++
-    }
-    return newString
+// function removeWords(str){
+//     if(str === null || str === undefined || str === ''){
+//         return "Invalid input"
+//     }
+//     let size = str.length
+//     if(size <= 3){
+//         return "String is too short to remove"
+//     }
+//     let newString = ''
+//     let index = 0
+//     for (const item of str) {
+//         if(index >= 3){
+//             newString += item
+//         }
+//         index++
+//     }
+//     return newString
 
-  }
-  let str = "I love programming"
-  let output = removeWords(str)
-  console.log(output)
+//   }
+//   let str = "I love programming"
+//   let output = removeWords(str)
+//   console.log(output)
+
+
+
+
