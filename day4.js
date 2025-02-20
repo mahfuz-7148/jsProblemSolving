@@ -37,5 +37,7 @@ function oddIndex(array) {
     }
     return oddElement
 }
-let output = oddIndex([1, 2, 3]);
+//let output = oddIndex([3, 6, 5, 4, 8, 10]); //[ 'DEVZEROONE', 3, 6, 4, 10 ]
+// let output = oddIndex([0, 2, 4, 7, 9]);  //[ 0, 2, 7 ]
+// let output = oddIndex([1, 2, 3]);  //[ 1, 2, 'DEVZEROONE' ]
 console.log(output)

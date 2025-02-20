@@ -18,4 +18,4 @@ function printNumber(N) {
    return output.trim()
 }
 let output = printNumber(5)
-console.log(output)
+console.log(output) //0 1 2 3 4 5
